@@ -5,7 +5,7 @@ The desription of the original data found at that link is as follows:
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
-To get the data in the form you see them, 4 steps were preformed.
+To get the data in the form you see them, 4 steps were performed.
 1) The test and train data sets were combined into a single data set.
 2) The activity types were labeled with descritive names.
 3) Only mean and standard deviation statistics were extracted from the data set.
@@ -34,23 +34,23 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+tBodyAcc-XYZ 
+tGravityAcc-XYZ 
+tBodyAccJerk-XYZ 
+tBodyGyro-XYZ 
+tBodyGyroJerk-XYZ 
+tBodyAccMag 
+tGravityAccMag 
+tBodyAccJerkMag 
+tBodyGyroMag 
+tBodyGyroJerkMag 
+fBodyAcc-XYZ 
+fBodyAccJerk-XYZ 
+fBodyGyro-XYZ 
+fBodyAccMag 
+fBodyAccJerkMag 
+fBodyGyroMag 
+fBodyGyroJerkMag 
 
 The set of variables that were estimated from these signals are: 
 
