@@ -1,12 +1,13 @@
-The Variables in this Tidy data set are made up of 2 sections: Subject Variables and Feture Vaiables
+The Variables in this Tidy data set are made up of 2 sections: Subject Variables and Feture Vaiables.
+The subject variables are an average across the trial of the following feature variables. 
 
-Subject Variables
+Subject Variables: 2 Columns
 ================
 subjectnum- Refers to the 30 subjects in this trial. Each subject has a number 1 through 30
 activitytype- Refers to which activity type these observations relate. The Types are:
   Laying, Sitting, Standing, Walking, Walking_Downstairs, Walking_Upstairs
 
-Feature Selection 
+Feature Selection: 33x2= 66 Columns
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -40,28 +41,3 @@ The set of variables that were estimated from these signals are:
 
 mean(): Mean value
 std(): Standard deviation
-mad(): Median absolute deviation 
-max(): Largest value in array
-min(): Smallest value in array
-sma(): Signal magnitude area
-energy(): Energy measure. Sum of the squares divided by the number of values. 
-iqr(): Interquartile range 
-entropy(): Signal entropy
-arCoeff(): Autorregresion coefficients with Burg order equal to 4
-correlation(): correlation coefficient between two signals
-maxInds(): index of the frequency component with largest magnitude
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-skewness(): skewness of the frequency domain signal 
-kurtosis(): kurtosis of the frequency domain signal 
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
-angle(): Angle between to vectors.
-
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
-
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
-
-The complete list of variables of each feature vector is available in 'features.txt'
