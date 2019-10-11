@@ -4,7 +4,7 @@ Course Project Week 4 of Coursera Getting and Cleaning Data course
 The run_analysis script reads the source data sets from the working directory. If the original data sets do not exist in the working directory, this script will not work properly.
 When possible, the script inserts descriptive names into column names.
 
-The script preforms these steps:
+The script performs these steps:
 1) Read variable 'feature' headers, and activity lables (using read.table)
 2) Read training data (using read.table)
 3) Read test data (using read.table)
