@@ -19,4 +19,4 @@ The script performs these steps:
        This tidy data set is WIDE. It is as tidy as a LONG data set that has a single variable
        column for "Measurement", since this has 1 observation per row, and 1 column per variable.
        The preference for LONG vs WIDE will depend on the analysis done on this tidy data set.
-9) Write the new data set to the file "tidy_set_course_project.txt"
+9) Write the new data set to the file "tidy_set_course_project.txt" (using write.table() and row.name = FALSE
